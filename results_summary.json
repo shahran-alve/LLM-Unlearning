@@ -1,0 +1,62 @@
+{
+  "qlora": {
+    "test_retain": {
+      "accuracy": 0.555,
+      "f1_weighted": 0.3961736334405145
+    },
+    "test_forget": {
+      "accuracy": 0.565,
+      "f1_weighted": 0.40795527156549527
+    }
+  },
+  "gradient_ascent": {
+    "test_retain": {
+      "accuracy": 0.555,
+      "f1_weighted": 0.3961736334405145
+    },
+    "test_forget": {
+      "accuracy": 0.565,
+      "f1_weighted": 0.40795527156549527
+    }
+  },
+  "random_label": {
+    "test_retain": {
+      "accuracy": 0.555,
+      "f1_weighted": 0.3961736334405145
+    },
+    "test_forget": {
+      "accuracy": 0.565,
+      "f1_weighted": 0.40795527156549527
+    }
+  },
+  "gradient_ascent_descent": {
+    "test_retain": {
+      "accuracy": 0.445,
+      "f1_weighted": 0.274083044982699
+    },
+    "test_forget": {
+      "accuracy": 0.435,
+      "f1_weighted": 0.26372822299651566
+    }
+  },
+  "gradient_ascent_kl": {
+    "test_retain": {
+      "accuracy": 0.555,
+      "f1_weighted": 0.3961736334405145
+    },
+    "test_forget": {
+      "accuracy": 0.565,
+      "f1_weighted": 0.40795527156549527
+    }
+  },
+  "spul": {
+    "test_retain": {
+      "accuracy": 0.555,
+      "f1_weighted": 0.3961736334405145
+    },
+    "test_forget": {
+      "accuracy": 0.565,
+      "f1_weighted": 0.40795527156549527
+    }
+  }
+}

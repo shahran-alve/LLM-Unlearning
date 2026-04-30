@@ -1,0 +1,13 @@
+name: llm-unlearning-paper
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.14
+  - pip=24.0
+  - pytorch=2.3.0
+  - pytorch-cuda=12.1
+  - pip:
+      - -r requirements.paper.txt
